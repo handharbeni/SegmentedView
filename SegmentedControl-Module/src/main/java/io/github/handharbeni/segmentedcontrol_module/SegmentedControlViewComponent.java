@@ -4,7 +4,7 @@ import androidx.annotation.NonNull;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import section_layout.widget.custom.android.com.sectionlayout.SectionLayout;
+import io.github.handharbeni.seclayout_module.sectionlayout.SectionLayout;
 import io.github.handharbeni.viewcomponent_module.ViewComponent;
 
 /**

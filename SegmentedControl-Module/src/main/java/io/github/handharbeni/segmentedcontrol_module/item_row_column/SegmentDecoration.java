@@ -4,7 +4,8 @@ import android.content.Context;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import androidx.annotation.ColorInt;
-import android.support.v4.content.ContextCompat;
+import androidx.core.content.ContextCompat;
+
 
 /**
  * Created by Robert Apikyan on 9/11/2017.

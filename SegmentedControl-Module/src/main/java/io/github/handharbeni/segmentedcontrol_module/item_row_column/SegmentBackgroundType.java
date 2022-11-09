@@ -5,17 +5,6 @@ import androidx.annotation.IntDef;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
-import static segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentBackgroundType.BOTTOM_LEFT_BG;
-import static segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentBackgroundType.BOTTOM_RIGHT_BG;
-import static segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentBackgroundType.BOTTOM_SINGLE_BG;
-import static segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentBackgroundType.MIDDLE_BG;
-import static segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentBackgroundType.SINGLE_BG;
-import static segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentBackgroundType.TOP_LEFT_BG;
-import static segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentBackgroundType.TOP_LEFT_SINGLE_BG;
-import static segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentBackgroundType.TOP_RIGHT_BG;
-import static segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentBackgroundType.TOP_RIGHT_SINGLE_BG;
-import static segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentBackgroundType.TOP_SINGLE_BG;
-
 /**
  * Created by Robert Apikyan on 9/12/2017.
  */

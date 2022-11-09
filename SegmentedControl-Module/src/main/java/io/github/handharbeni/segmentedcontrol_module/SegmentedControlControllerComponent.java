@@ -9,17 +9,19 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-import section_layout.widget.custom.android.com.sectionlayout.SectionLayout;
-import section_layout.widget.custom.android.com.sectionlayout.distributive_section_layout.DistributiveSectionLayout;
-import segmented_control.widget.custom.android.com.segmentedcontrol.item_row.SegmentRowAdapter;
-import segmented_control.widget.custom.android.com.segmentedcontrol.item_row.SegmentRowViewHolder;
-import segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentAdapter;
-import segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentData;
-import segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentDecoration;
-import segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentViewHolder;
-import segmented_control.widget.custom.android.com.segmentedcontrol.listeners.OnSegmentClickListener;
-import segmented_control.widget.custom.android.com.segmentedcontrol.listeners.OnSegmentSelectRequestListener;
-import segmented_control.widget.custom.android.com.segmentedcontrol.listeners.OnSegmentSelectedListener;
+import io.github.handharbeni.segmentedcontrol_module.item_row.SegmentRowAdapter;
+import io.github.handharbeni.segmentedcontrol_module.item_row_column.SegmentAdapter;
+import io.github.handharbeni.seclayout_module.sectionlayout.SectionLayout;
+import io.github.handharbeni.seclayout_module.sectionlayout.distributive_section_layout.DistributiveSectionLayout;
+import io.github.handharbeni.segmentedcontrol_module.item_row.SegmentRowAdapter;
+import io.github.handharbeni.segmentedcontrol_module.item_row.SegmentRowViewHolder;
+import io.github.handharbeni.segmentedcontrol_module.item_row_column.SegmentAdapter;
+import io.github.handharbeni.segmentedcontrol_module.item_row_column.SegmentData;
+import io.github.handharbeni.segmentedcontrol_module.item_row_column.SegmentDecoration;
+import io.github.handharbeni.segmentedcontrol_module.item_row_column.SegmentViewHolder;
+import io.github.handharbeni.segmentedcontrol_module.listeners.OnSegmentClickListener;
+import io.github.handharbeni.segmentedcontrol_module.listeners.OnSegmentSelectRequestListener;
+import io.github.handharbeni.segmentedcontrol_module.listeners.OnSegmentSelectedListener;
 import io.github.handharbeni.viewcomponent_module.ControllerComponent;
 
 /**

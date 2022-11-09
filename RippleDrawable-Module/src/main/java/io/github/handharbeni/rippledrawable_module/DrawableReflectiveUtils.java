@@ -17,13 +17,14 @@ package io.github.handharbeni.rippledrawable_module;
 
 import android.graphics.PorterDuff;
 import android.graphics.PorterDuffColorFilter;
-import android.support.v4.util.LruCache;
-import android.support.v4.util.SimpleArrayMap;
 import android.util.Log;
+import android.util.LruCache;
 
 import java.lang.reflect.Method;
 
 import static android.graphics.PorterDuff.Mode;
+
+import androidx.collection.SimpleArrayMap;
 
 /**
  * Stolen

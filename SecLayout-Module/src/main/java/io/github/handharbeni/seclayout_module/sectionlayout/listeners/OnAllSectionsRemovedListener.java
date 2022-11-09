@@ -1,6 +1,7 @@
 package io.github.handharbeni.seclayout_module.sectionlayout.listeners;
 
-import section_layout.widget.custom.android.com.sectionlayout.SectionManager;
+
+import io.github.handharbeni.seclayout_module.sectionlayout.SectionManager;
 
 /**
  * Only for {@link SectionManager#removeAllSections()} method

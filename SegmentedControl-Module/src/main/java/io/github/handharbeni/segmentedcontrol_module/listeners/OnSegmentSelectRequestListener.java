@@ -1,6 +1,6 @@
 package io.github.handharbeni.segmentedcontrol_module.listeners;
 
-import segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentViewHolder;
+import io.github.handharbeni.segmentedcontrol_module.item_row_column.SegmentViewHolder;
 
 /**
  * Created by Robert Apikyan on 9/12/2017.

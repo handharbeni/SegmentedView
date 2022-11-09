@@ -15,8 +15,6 @@ import io.github.handharbeni.seclayout_module.sectionlayout.listeners.OnAllSecti
 import io.github.handharbeni.seclayout_module.sectionlayout.listeners.OnAllSectionsRemovedListener;
 import io.github.handharbeni.seclayout_module.sectionlayout.listeners.OnRemoveSectionListener;
 import io.github.handharbeni.seclayout_module.sectionlayout.listeners.OnRemoveSectionRequestListener;
-import view_component.lib_android.com.view_component.base_view.ControllerComponent;
-import view_component.lib_android.com.view_component.base_view.functional_interfaces.Request;
 
 /**
  * Created by Robert Apikyan on 8/22/2017.

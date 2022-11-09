@@ -11,14 +11,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import segmented_control.widget.custom.android.com.segmented_control.R;
-import segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentViewHolder;
+import io.github.handharbeni.segmentedcontrol_module.R;
+import io.github.handharbeni.segmentedcontrol_module.item_row_column.SegmentViewHolder;
 
-import static segmented_control.widget.custom.android.com.segmentedcontrol.utils.Utils.createBackgroundAnimation;
-import static segmented_control.widget.custom.android.com.segmentedcontrol.utils.Utils.createRadius;
-import static segmented_control.widget.custom.android.com.segmentedcontrol.utils.Utils.defineRadiusForPosition;
-import static segmented_control.widget.custom.android.com.segmentedcontrol.utils.Utils.getBackground;
-import static segmented_control.widget.custom.android.com.segmentedcontrol.utils.Utils.isInBounds;
+import static io.github.handharbeni.segmentedcontrol_module.utils.Utils.createBackgroundAnimation;
+import static io.github.handharbeni.segmentedcontrol_module.utils.Utils.createRadius;
+import static io.github.handharbeni.segmentedcontrol_module.utils.Utils.defineRadiusForPosition;
+import static io.github.handharbeni.segmentedcontrol_module.utils.Utils.getBackground;
+import static io.github.handharbeni.segmentedcontrol_module.utils.Utils.isInBounds;
 
 /**
  * Created by Robert Apikyan on 9/8/2017.

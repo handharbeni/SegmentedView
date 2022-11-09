@@ -4,8 +4,9 @@ import androidx.annotation.NonNull;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
-import segmented_control.widget.custom.android.com.segmented_control.R;
-import segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentAdapter;
+import io.github.handharbeni.segmentedcontrol_module.R;
+import io.github.handharbeni.segmentedcontrol_module.item_row_column.SegmentAdapter;
+
 
 /**
  * Created by Robert Apikyan on 9/8/2017.

@@ -2,7 +2,7 @@ package io.github.handharbeni.segmentedcontrol_module.item_row_column;
 
 import android.graphics.Typeface;
 
-import segmented_control.widget.custom.android.com.segmentedcontrol.listeners.OnSegmentClickListener;
+import io.github.handharbeni.segmentedcontrol_module.listeners.OnSegmentClickListener;
 
 /**
  * Created by Robert Apikyan on 9/7/2017.

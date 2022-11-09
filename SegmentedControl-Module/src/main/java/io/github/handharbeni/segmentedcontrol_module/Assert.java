@@ -1,6 +1,6 @@
 package io.github.handharbeni.segmentedcontrol_module;
 
-import section_layout.widget.custom.android.com.sectionlayout.SectionLayout;
+import io.github.handharbeni.seclayout_module.sectionlayout.SectionLayout;
 
 /**
  * Created by Robert Apikyan on 9/7/2017.

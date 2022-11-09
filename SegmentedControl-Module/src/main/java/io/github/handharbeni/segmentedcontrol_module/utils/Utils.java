@@ -7,8 +7,8 @@ import android.graphics.drawable.GradientDrawable;
 import androidx.annotation.IntRange;
 import android.view.View;
 
-import segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentBackgroundType;
-import segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentViewHolder;
+import io.github.handharbeni.segmentedcontrol_module.item_row_column.SegmentBackgroundType;
+import io.github.handharbeni.segmentedcontrol_module.item_row_column.SegmentViewHolder;
 
 /**
  * Created by Robert Apikyan on 9/8/2017.

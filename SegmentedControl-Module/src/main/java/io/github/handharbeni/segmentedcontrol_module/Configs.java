@@ -1,6 +1,6 @@
 package io.github.handharbeni.segmentedcontrol_module;
 
-import segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentDecoration;
+import io.github.handharbeni.segmentedcontrol_module.item_row_column.SegmentDecoration;
 
 /**
  * Created by Robert Apikyan on 9/7/2017.

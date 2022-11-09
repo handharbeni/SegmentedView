@@ -1,6 +1,6 @@
 package io.github.handharbeni.segmentedcontrol_module.item_row_column;
 
-import section_layout.widget.custom.android.com.sectionlayout.distributive_section_layout.DistributiveSectionLayout;
+import io.github.handharbeni.seclayout_module.sectionlayout.distributive_section_layout.DistributiveSectionLayout;
 
 /**
  * Created by Robert Apikyan on 9/7/2017.

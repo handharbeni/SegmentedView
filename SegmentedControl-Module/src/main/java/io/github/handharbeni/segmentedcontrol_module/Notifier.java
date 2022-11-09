@@ -1,14 +1,14 @@
 package io.github.handharbeni.segmentedcontrol_module;
 
+import static io.github.handharbeni.segmentedcontrol_module.utils.Utils.lazy;
+
 import java.util.ArrayList;
 import java.util.List;
 
-import segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentViewHolder;
-import segmented_control.widget.custom.android.com.segmentedcontrol.listeners.OnSegmentClickListener;
-import segmented_control.widget.custom.android.com.segmentedcontrol.listeners.OnSegmentSelectRequestListener;
-import segmented_control.widget.custom.android.com.segmentedcontrol.listeners.OnSegmentSelectedListener;
-
-import static segmented_control.widget.custom.android.com.segmentedcontrol.utils.Utils.lazy;
+import io.github.handharbeni.segmentedcontrol_module.item_row_column.SegmentViewHolder;
+import io.github.handharbeni.segmentedcontrol_module.listeners.OnSegmentClickListener;
+import io.github.handharbeni.segmentedcontrol_module.listeners.OnSegmentSelectRequestListener;
+import io.github.handharbeni.segmentedcontrol_module.listeners.OnSegmentSelectedListener;
 
 
 /**

@@ -18,6 +18,7 @@ import android.graphics.PorterDuffColorFilter;
 import android.graphics.Rect;
 import android.graphics.Shader;
 import android.graphics.drawable.Drawable;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.util.AttributeSet;
@@ -29,8 +30,6 @@ import org.xmlpull.v1.XmlPullParserException;
 
 import java.io.IOException;
 import java.util.Arrays;
-
-import dreamers.graphics.R;
 
 /**
  * Drawable that shows a ripple effect in response to state changes. The
@@ -608,7 +607,7 @@ public class RippleDrawable extends LayerDrawable {
         // Clip to the dirty bounds, which will be the drawable bounds if we
         // have a mask or content and the ripple bounds if we're projecting.
         final Rect bounds = getDirtyBounds();
-        final int saveCount = canvas.save(Canvas.CLIP_SAVE_FLAG);
+        final int saveCount = canvas.save();
         canvas.clipRect(bounds);
 
         drawContent(canvas);

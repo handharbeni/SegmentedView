@@ -4,10 +4,10 @@ import androidx.annotation.NonNull;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import section_layout.widget.custom.android.com.sectionlayout.SectionLayout;
-import section_layout.widget.custom.android.com.sectionlayout.distributive_section_layout.DistributiveSectionLayout;
-import segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentAdapter;
-import segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentData;
+import io.github.handharbeni.seclayout_module.sectionlayout.SectionLayout;
+import io.github.handharbeni.seclayout_module.sectionlayout.distributive_section_layout.DistributiveSectionLayout;
+import io.github.handharbeni.segmentedcontrol_module.item_row_column.SegmentAdapter;
+import io.github.handharbeni.segmentedcontrol_module.item_row_column.SegmentData;
 
 /**
  * Created by Robert Apikyan on 9/7/2017.

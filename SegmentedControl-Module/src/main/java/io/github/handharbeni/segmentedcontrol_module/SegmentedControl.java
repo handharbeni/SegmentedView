@@ -1,5 +1,7 @@
 package io.github.handharbeni.segmentedcontrol_module;
 
+import static io.github.handharbeni.segmentedcontrol_module.item_row_column.SegmentDecoration.DEFAULT_SELECTION_ANIMATION_DURATION;
+
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Typeface;
@@ -10,17 +12,16 @@ import android.view.LayoutInflater;
 
 import java.util.List;
 
-import section_layout.widget.custom.android.com.sectionlayout.SectionLayout;
-import segmented_control.widget.custom.android.com.segmented_control.R;
-import segmented_control.widget.custom.android.com.segmentedcontrol.custom_segment.SegmentAdapterImpl;
-import segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentAdapter;
-import segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentViewHolder;
-import segmented_control.widget.custom.android.com.segmentedcontrol.listeners.OnSegmentClickListener;
-import segmented_control.widget.custom.android.com.segmentedcontrol.listeners.OnSegmentSelectRequestListener;
-import segmented_control.widget.custom.android.com.segmentedcontrol.listeners.OnSegmentSelectedListener;
+import io.github.handharbeni.seclayout_module.sectionlayout.SectionLayout;
+import io.github.handharbeni.segmentedcontrol_module.custom_segment.SegmentAdapterImpl;
+import io.github.handharbeni.segmentedcontrol_module.custom_segment.SegmentViewHolderImpl;
+import io.github.handharbeni.segmentedcontrol_module.item_row_column.SegmentAdapter;
+import io.github.handharbeni.segmentedcontrol_module.item_row_column.SegmentViewHolder;
+import io.github.handharbeni.segmentedcontrol_module.listeners.OnSegmentClickListener;
+import io.github.handharbeni.segmentedcontrol_module.listeners.OnSegmentSelectRequestListener;
+import io.github.handharbeni.segmentedcontrol_module.listeners.OnSegmentSelectedListener;
 import io.github.handharbeni.viewcomponent_module.layouts.ComponentFrameLayout;
 
-import static segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentDecoration.DEFAULT_SELECTION_ANIMATION_DURATION;
 
 /**
  * Created by Robert Apikyan on 8/18/2017.
@@ -105,7 +106,7 @@ public class SegmentedControl<D> extends ComponentFrameLayout<SegmentedControlVi
 
     private void fetchAccentColor() {
         TypedValue tv = new TypedValue();
-        TypedArray typedArray = getContext().obtainStyledAttributes(tv.data, new int[]{R.attr.colorAccent});
+        TypedArray typedArray = getContext().obtainStyledAttributes(tv.data, new int[]{R.color.colorAccent});
         try {
             getControllerComponent().setAccentColor(typedArray.getColor(0, 0));
         } finally {
@@ -373,7 +374,7 @@ public class SegmentedControl<D> extends ComponentFrameLayout<SegmentedControlVi
     }
 
     /**
-     * set the adapter {@link SegmentAdapter} with {@link segmented_control.widget.custom.android.com.segmentedcontrol.custom_segment.SegmentViewHolderImpl} view holder
+     * set the adapter {@link SegmentAdapter} with {@link SegmentViewHolderImpl} view holder
      * where data D data type is String. use segmentedControl.addSegments(String[] segmentDataArray) or segmentedControl.addSegments(List<String> segmentDataList) methods
      */
     public void useDefaultAdapter() {
@@ -450,7 +451,8 @@ public class SegmentedControl<D> extends ComponentFrameLayout<SegmentedControlVi
      * @param onSegmentSelectRequestListener, event will be triggered after click event and before selection event
      *                                        for more info click out {@link OnSegmentSelectRequestListener} class
      */
-    public void setOnSegmentSelectRequestListener(OnSegmentSelectRequestListener<D> onSegmentSelectRequestListener) {
+    public void setOnSegmentSelectRequestListener(
+            OnSegmentSelectRequestListener<D> onSegmentSelectRequestListener) {
         getControllerComponent().setOnSegmentSelectRequestListener(onSegmentSelectRequestListener);
     }
 
