@@ -1,7 +1,30 @@
 plugins {
     id 'com.android.library'
+    id 'maven-publish'
 }
+group='io.github.handharbeni'
 
+ext {
+    // Provide your own coordinates here
+    PUBLISH_GROUP_ID = 'io.github.handharbeni'
+    PUBLISH_VERSION = '1.0.0'
+    PUBLISH_ARTIFACT_ID = 'segmentedcontrol-module'
+    PUBLISH_DESCRIPTION = 'SegmentedControl Module Android'
+    PUBLISH_URL = 'https://github.com/handharbeni/SegmentedView'
+    PUBLISH_LICENSE_NAME = 'Apache License 2.0'
+    PUBLISH_LICENSE_URL =
+            'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    PUBLISH_DEVELOPER_ID = 'mhandharbeni'
+    PUBLISH_DEVELOPER_NAME = 'Muhammad Handharbeni'
+    PUBLISH_DEVELOPER_EMAIL = 'mhandharbeni@gmail.com'
+    PUBLISH_SCM_CONNECTION =
+            'scm:git:github.com/handharbeni/SegmentedView.git'
+    PUBLISH_SCM_DEVELOPER_CONNECTION =
+            'scm:git:ssh://github.com/handharbeni/SegmentedView.git'
+    PUBLISH_SCM_URL =
+            'https://github.com/handharbeni/SegmentedView/tree/master'
+}
+apply from: "${rootProject.projectDir}/scripts/publish-module.gradle"
 android {
     namespace 'io.github.handharbeni.segmentedcontrol_module'
     compileSdk 32
@@ -30,10 +53,12 @@ dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'com.google.android.material:material:1.7.0'
+    api project(path: ':ViewComponent-Module')
+    api project(path: ':SecLayout-Module')
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
-    api 'com.github.RobertApikyan:ViewComponent:1.0.3'
-    api 'com.github.RobertApikyan:SecLayout:1.0.3'
+//    api 'com.github.RobertApikyan:ViewComponent:1.0.3'
+//    api 'com.github.RobertApikyan:SecLayout:1.0.3'
 }
